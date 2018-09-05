@@ -1,4 +1,9 @@
 def fizzbuzz(int)
   if int % 3 == 0
-  p
+  puts "fizz"
+  elsif int % 5 == 0
+  puts "buzz"
+  elsif int % 5 && int % 3 == 0
+  puts "fizzbuzz"
+  els
 end
